@@ -1,0 +1,56 @@
+/*
+ * Principal CSS
+ * */
+
+
+body {
+  background-color: #222;
+  background-image: url('/static/channel/img/background.jpg');
+  background-repeat: no-repeat;
+}
+
+#mainContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 3rem;
+}
+
+/*.title {*/
+  /*text-align: center;*/
+  /*margin: 3rem 0;*/
+  /*font-family: Verdana sans-serif;*/
+  /*font-weight: lighter;*/
+/*}*/
+
+
+#logoImage {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#mainFooter {
+  background-color: #222;
+}
+
+
+/* RESPONSIVE */
+@media(max-width: 900px) {
+
+}
+
+@media(max-width: 700px) {
+  #mainContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 3rem;
+  }
+
+}
+
+@media(max-width: 500px) {
+  #mainContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 3rem;
+  }
+}

@@ -1,0 +1,17 @@
+/**
+ * Css styles for the about page
+ * */
+
+#mainContainer {
+  /* no display grid now */
+  display: block;
+}
+
+#section {
+  background-color: #333;
+  border-radius: .5rem;
+}
+
+#mainFooter {
+  margin-top: 20%;
+}

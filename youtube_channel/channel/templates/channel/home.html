@@ -1,0 +1,24 @@
+{% extends 'channel/layout.html' %}
+
+{% load static %}
+
+{% block content %}
+<section class="d-block">
+  <h1 class="text-white text-start p-2 title">Eduard Gamer YT</h1>
+  <img src="{% static 'channel/img/logo-image.png' %}" alt="logo-image" id="logoImage">
+</section>
+
+<section class="mt-5">
+  <p class="text-white p-2 text-justify lead">
+    Soy un youtuber gamer, que juega Minecraft principalmente pero tambien otros
+    juegos como Fornite, GTA 5, Free Fire. Me considero una persona muy extrovertida
+    que haces cosas raras y diferentes a los demas XD.
+  </p>
+
+  <a class="btn btn-primary w-100 m-auto my-4" target="_blank" href="{% url 'home' %}" rel="noreferrer">Canal de Youtube</a>
+
+  <a class="btn btn-primary w-100 m-auto my-4" target="_blank" href="{% url 'subscribe' %}" rel="noreferrer">Subscribete al canal</a>
+
+</section>
+
+{% endblock %}

@@ -1,0 +1,17 @@
+/*
+ * Css styles for the navigation bar
+ * */
+
+
+.navbar {
+  background-color: #333;
+}
+
+/* animations for the links in the navigation bar */
+.nav-item:hover {
+  border-bottom: .5px solid #ccc;
+}
+
+.navbar-brand:hover {
+  border-bottom: .5px solid #ccc;
+}

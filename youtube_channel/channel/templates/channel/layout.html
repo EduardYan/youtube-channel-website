@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Eduard Gamer Youtube</title>
+
+  <!-- BOOTSTRAP 5 -->
+  <link rel="stylesheet" href="{% static 'channel/css/bootstrap.min.css' %}" >
+
+  <!-- CUSTOM CSS -->
+  <link rel="stylesheet" href="{% static 'channel/css/custom.css' %}">
+
+</head>
+<body>
+
+  <!-- NAVIGATION BAR -->
+  {% include 'channel/partials/_nav.html' %}
+
+  <!-- MAIN CONTAINER -->
+  <div class="container my-5" id="mainContainer">
+    {% block content %}
+    {% endblock %}
+  </div>
+
+  {% include 'channel/partials/_footer.html' %}
+  
+</body>
+</html>
